@@ -92,7 +92,8 @@ In modern SaaS-based CRM/CLM platforms, seamless integration between front-end i
 # 🎯 Objective:
 To describe and design how Kotlin, Angular, and Perl components interact with voice modules (e.g., speech-to-text, audio storage) and machine learning services (e.g., lead scoring, churn prediction) using RESTful APIs or microservices. The goal is to ensure secure, structured, and efficient communication between layers, promoting real-time data processing and automation.
 # ✅ Conclusion:
-Effective API integration ensures all parts of the tech stack — from Angular’s user interface to Kotlin’s backend logic and Perl-based utilities — work in harmony with intelligent voice and ML services. This modular, service-oriented architecture not only supports real-time interactions but also simplifies future enhancements. A well-structured API layer guarantees clean separation of concerns, enabling faster development, better testing, and easier compliance with data privacy standards
+Effective API Integration ensures all parts of the tech stack- from Angular's user interface to kotlin's backend logic and perl-based utilities-work in harmony with intelligent voice and ML services. This modular, service-oriented architecture not only support real-time interactions but also simplifies future enhancements. A well-structured API layer gurantees clean seperation of concerns. better testing, and easier compliance with data privacy standards.
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #🔶 Part 6: Bonus Challenge
 # 💡 Project Title: Auto-Prioritization of Leads using ML and NLP
