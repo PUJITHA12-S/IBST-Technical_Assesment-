@@ -41,4 +41,10 @@ This project uses a custom engagement dataset to predict lead conversion and cus
 * Pages_visited : 	Number of unique pages or screens visited by the user.
 * time_spednd : Total time (in seconds or minutes) spent during sessions.
 * Converted : 	Target label: 1 if the lead converted, 0 otherwise.
-* Churned : 	Target label: 1 if the customer churned after conversion, 0 otherwise. 
+* Churned : 	Target label: 1 if the customer churned after conversion, 0 otherwise.
+
+# ✅ Conclusion
+This project successfully demonstrates how AI and machine learning can enhance CRM strategy through intelligent lead scoring and customer lifecycle prediction. By analyzing behavioral and engagement data, we built two predictive models:
+A lead conversion model to score prospects based on activity, helping sales teams prioritize high-quality leads.
+
+A churn prediction model to identify at-risk customers, enabling proactive retention efforts and optimized next best actions (NBA).
