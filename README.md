@@ -25,3 +25,20 @@
 * Label: churned (1 for churned clients).
 * Model: XGBoost / Gradient Boosted Trees
 
+# 🛠 Tech Stack
+| Component       | Technology               |
+| --------------- | ------------------------ |
+| Language        | Python                   |
+| Data Processing | Pandas, NumPy, PySpark   |
+| Modeling        | Random Forest Model      |
+| API Deployment  | Flask                    |
+| Visualization   | Matplotlib, Seaborn      |
+
+# 📂 Dataset Overview
+This project uses a custom engagement dataset to predict lead conversion and customer churn for CRM lifecycle management. The dataset captures behavioral, engagement, and conversion metrics of users interacting with a product or platform.
+* Lead_Score : Encoded value representing the source of the lead (e.g., web, referral).
+* Engagement_Score :	Composite score capturing user activity intensity.
+* Pages_visited : 	Number of unique pages or screens visited by the user.
+* time_spednd : Total time (in seconds or minutes) spent during sessions.
+* Converted : 	Target label: 1 if the lead converted, 0 otherwise.
+* Churned : 	Target label: 1 if the customer churned after conversion, 0 otherwise. 
