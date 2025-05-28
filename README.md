@@ -13,18 +13,6 @@
 * Classify clients across lifecycle stages (e.g., new, active, loyal, at-risk).
 * Provide explainable insights using visual analytics.
 
-# 🧠 ML Pipeline
-1. Lead Scoring (Supervised Model)
-* Goal: Predict likelihood of lead conversion.
-* Features: Engagement score, lead source, time spent, pages visited.
-* Label: converted (1 for converted leads).
-* Model: Random Forest / Logistic Regression.
-2. Customer Churn / NBA Model
-* Goal: Predict churn risk or suggest next best action.
-* Features: Behavioral history, interaction patterns, lifecycle stage.
-* Label: churned (1 for churned clients).
-* Model: XGBoost / Gradient Boosted Trees
-
 # 🛠 Tech Stack
 | Component       | Technology               |
 | --------------- | ------------------------ |
