@@ -13,15 +13,6 @@
 * Classify clients across lifecycle stages (e.g., new, active, loyal, at-risk).
 * Provide explainable insights using visual analytics.
 
-# 🛠 Tech Stack
-| Component       | Technology               |
-| --------------- | ------------------------ |
-| Language        | Python                   |
-| Data Processing | Pandas, NumPy, PySpark   |
-| Modeling        | Random Forest Model      |
-| API Deployment  | Flask                    |
-| Visualization   | Matplotlib, Seaborn      |
-
 # 📂 Dataset Overview
 This project uses a custom engagement dataset to predict lead conversion and customer churn for CRM lifecycle management. The dataset captures behavioral, engagement, and conversion metrics of users interacting with a product or platform.
 * Lead_Score : Encoded value representing the source of the lead (e.g., web, referral).
@@ -36,7 +27,7 @@ This project successfully demonstrates how AI and machine learning can enhance C
 * A lead conversion model to score prospects based on activity, helping sales teams prioritize high-quality leads.
 * A churn prediction model to identify at-risk customers, enabling proactive retention efforts and optimized next best actions (NBA).
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# 🎙️ Voice-Controlled CRM Commands (NLP Module) 
+# Part-2 :🎙️ Voice-Controlled CRM Commands (NLP Module) 
 
 # 🔍 Overview
 This project demonstrates a voice-enabled interface for CRM systems using speech recognition, natural language processing, and text-to-speech (TTS). It allows users to issue spoken commands such as "Add a new lead from ABC Corp," which are transcribed, parsed, and converted into actionable CRM-ready JSON responses.
