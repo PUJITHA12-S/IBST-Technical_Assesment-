@@ -85,3 +85,11 @@ This project focuses on designing a secure, scalable data schema tailored for mu
 * Clear boundaries between client data (via tenant_id)
 * Secure storage and access control for sensitive voice logs
 * Compliance with privacy standards and regulatory requirements
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# 🔹 Part 5: API Integration Design (Kotlin, Angular, Perl)
+# ✅ Overview:
+In modern SaaS-based CRM/CLM platforms, seamless integration between front-end interfaces, back-end services, and intelligent modules like voice processing and machine learning (ML) is critical. This task focuses on designing API interactions across a tech stack that includes Kotlin (backend), Angular (frontend), and Perl (legacy or scripting layer), enabling efficient data flow and communication with voice recognition systems and ML-based prediction engines. Proper API integration ensures modularity, scalability, and maintainability in enterprise-grade applications.
+# 🎯 Objective:
+To describe and design how Kotlin, Angular, and Perl components interact with voice modules (e.g., speech-to-text, audio storage) and machine learning services (e.g., lead scoring, churn prediction) using RESTful APIs or microservices. The goal is to ensure secure, structured, and efficient communication between layers, promoting real-time data processing and automation.
+# ✅ Conclusion:
+Effective API integration ensures all parts of the tech stack — from Angular’s user interface to Kotlin’s backend logic and Perl-based utilities — work in harmony with intelligent voice and ML services. This modular, service-oriented architecture not only supports real-time interactions but also simplifies future enhancements. A well-structured API layer guarantees clean separation of concerns, enabling faster development, better testing, and easier compliance with data privacy standards
