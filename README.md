@@ -45,6 +45,5 @@ This project uses a custom engagement dataset to predict lead conversion and cus
 
 # ✅ Conclusion
 This project successfully demonstrates how AI and machine learning can enhance CRM strategy through intelligent lead scoring and customer lifecycle prediction. By analyzing behavioral and engagement data, we built two predictive models:
-A lead conversion model to score prospects based on activity, helping sales teams prioritize high-quality leads.
-
-A churn prediction model to identify at-risk customers, enabling proactive retention efforts and optimized next best actions (NBA).
+* A lead conversion model to score prospects based on activity, helping sales teams prioritize high-quality leads.
+* A churn prediction model to identify at-risk customers, enabling proactive retention efforts and optimized next best actions (NBA).
