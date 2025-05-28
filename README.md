@@ -1,5 +1,5 @@
 # IBST-Technical_Assesment-
-# 📊 Intelligent Lead Scoring & Customer Lifecycle Prediction
+# Part-1 :📊 Intelligent Lead Scoring & Customer Lifecycle Prediction
 # 🔍 Overview
 * This project builds an AI-powered system to:
 * Score leads based on engagement and behavioral metrics.
