@@ -1,0 +1,15 @@
+🧾 One-Page Explanation
+🔐 Multi-Tenant Architecture with Data Privacy
+This CRM/CLM design is structured around multi-tenancy, where each client (organization) is considered a separate tenant. All associated data — including users, leads, and voice logs — are isolated at the tenant level.
+🏢 1. Tenants
+Each tenant represents a client (e.g., a company using the CRM platform). All other entities (users, leads, logs) are scoped under a tenant.
+👥 2. Users
+Users belong to a tenant and have roles like admin, agent, or manager. Role-based access control (RBAC) ensures proper data handling.
+📌 3. Leads
+Leads are managed per tenant, enabling marketing and sales tracking within the client's context. Fields like engagement_score or status support analytics and automation.
+🎤 4. Voice Logs
+Logs are linked to both leads and users, and include:
+audio_url: a link to the recorded file (e.g., in AWS S3)
+transcript: textual version of the call (from speech-to-text module)
+encrypted: flag to ensure logs are stored securely
+Voice data must be encrypted at rest and in transit to comply with regulations like GDPR or HIPAA.
